@@ -91,7 +91,7 @@ export const IntegrationListing = (props: Props) => {
     return (
         <div>
             <input className="searchbar" onChange={e => setSearchQuery(e.target.value)}/>
-            {filters.map((filter) => {
+            {/* {filters.map((filter) => {
               return (
                 <span key={filter}>
                   <input type="checkbox" value={filter}/>
@@ -99,7 +99,7 @@ export const IntegrationListing = (props: Props) => {
                 </span>
               )
             }
-            )}
+            )} */}
             <div className='cards'>
             {isLoading 
             ?
