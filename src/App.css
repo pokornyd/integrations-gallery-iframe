@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.searchbar {
+  max-width: 100%;
+  border: 1px solid #6956CC;
+  border-radius: 8px 20px 20px;
+  margin: 0 0 16px;
+  display: inline-block;
+  position: relative;
+  line-height: 16px;
+  min-width: 100%;
+  padding: 1px 32px;
+  height: 47px;
+}
+
+.integration_card {
+  background: #3dcca8;
+  border-radius: 5px 10px 10px 10px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.integration_card a {
+  text-decoration: none;
+  color: black;
+}
+
+.cards {
+  margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.preloader {
+  background: #3dcca8;
+  text-align: center;
+}
